@@ -8,6 +8,7 @@ my_button = rt.Button("Add item")
 #creating the gui interface
 window = rt.Window("My first GUI App", layout=[[my_label], [my_input_box,my_button]])
 window.read()
-print("you created your gui app super quick!")
+print("hello print")
+print("hello print")
 window.close()
 
